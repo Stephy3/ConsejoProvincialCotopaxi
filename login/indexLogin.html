@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - Prefectura Cotopaxi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <header>
+                <div class="header-logo">
+                    <img src="img/prefecturaRecorte2.png" alt="Prefectura Cotopaxi" height="200">
+                </div>
+                <div class="Verifica"><h2>Asegúrate de estar en el sitio oficial del Consejo Provincial. </h2></div>
+                <a href="https://www.cotopaxi.gob.ec/" class="verificar-boton">
+                    <img src="img/pagina-de-inicio.png" height="30" alt="Icono" class="icono-boton"> <div class="Asegurate">https://www.cotopaxi.gob.ec/ </div>
+                </a>
+            </header>
+            <div class="circle-image">
+                <img class="zoom" src="img/cotopaxi.jpg" alt="Imagen en círculo">
+            </div>
+            
+        </div>
+        <div class="right-section">
+            <h2>Bienvenidos al </h2>
+            <h2>Consejo Provincial</h2>
+            <div class="login-form">
+                <form action="login.php" method="POST">
+                    <div class="input-group">
+                        <label for="username">Usuario</label>
+                        <input type="text" id="username" name="username" required>
+                        <a href="#" class="text-derecha">¿Olvidaste tu usuario?</a>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                        <a href="#" class="text-derecha" >¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <button type="submit">Ingresar</button>
+                    <br>
+                    <a class="boton-ingresar">
+                        <img src="img/doble-verificacion.png" height="20" alt="Descripción del icono"> Password
+                    </a>
+                    <a class="usuario">
+                        Usuario y Contraseña
+                    </a>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+   
